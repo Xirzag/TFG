@@ -70,7 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\VC\Documents\GitHub\TFG\TFG\ext;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -112,17 +114,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Esfera.cpp" />
-    <ClCompile Include="getbmp.cpp" />
-    <ClCompile Include="Rings.cpp" />
+    <ClCompile Include="CameraMove.cpp" />
+    <ClCompile Include="graphics\Camera.cpp" />
+    <ClCompile Include="graphics\Renderer.cpp" />
+    <ClCompile Include="graphics\Texture.cpp" />
+    <ClCompile Include="demo\PlanetsDemo.cpp" />
+    <ClCompile Include="utils\FullScreen.cpp" />
+    <ClCompile Include="graphics\getbmp.cpp" />
+    <ClCompile Include="graphics\Ring.cpp" />
+    <ClCompile Include="graphics\Sphere.cpp" />
+    <ClCompile Include="graphics\StereoVision.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="StereoVision.cpp" />
+    <ClCompile Include="utils\NetReader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Esfera.h" />
-    <ClInclude Include="getbmp.h" />
-    <ClInclude Include="Rings.h" />
-    <ClInclude Include="StereoVision.h" />
+    <ClInclude Include="CameraMove.h" />
+    <ClInclude Include="graphics\Camera.h" />
+    <ClInclude Include="graphics\GlInitializer.h" />
+    <ClInclude Include="graphics\Renderer.h" />
+    <ClInclude Include="graphics\Texture.h" />
+    <ClInclude Include="demo\PlanetsDemo.h" />
+    <ClInclude Include="utils\FullScreen.h" />
+    <ClInclude Include="graphics\getbmp.h" />
+    <ClInclude Include="graphics\Ring.h" />
+    <ClInclude Include="graphics\Sphere.h" />
+    <ClInclude Include="graphics\StereoVision.h" />
+    <ClInclude Include="utils\NetReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

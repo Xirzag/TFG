@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sensor Transmitter</string>
+    <string name="accelerometer_not_found">Acelerómetro no encontrado</string>
+    <string name="ip">Ip</string>
+    <string name="use_compass">Usar brujula</string>
+    <string name="conected">Nueva conexión</string>
+    <string name="disconected">Desconectado</string>
+    <string name="error_in">Error en</string>
+    <string name="orientation_sensor">Sensor de orientación</string>
+    <string name="port">Puerto</string>
+    <string name="server_started">Servidor iniciado</string>
+    <string name="start_server">Iniciar servidor</string>
+    <string name="stop_server">Detener servidor</string>
+</resources>

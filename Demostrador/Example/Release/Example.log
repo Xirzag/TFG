@@ -1,0 +1,18 @@
+﻿  Camera.cpp
+  Model.cpp
+  Ring.cpp
+graphics\Ring.cpp(13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+graphics\Ring.cpp(15): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+graphics\Ring.cpp(17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+graphics\Ring.cpp(19): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  Sphere.cpp
+  StereoVision.cpp
+graphics\StereoVision.cpp(27): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+graphics\StereoVision.cpp(77): warning C4101: 'gShader': variable local sin referencia
+  Texture.cpp
+  FullScreen.cpp
+  NetReceiver.cpp
+  Generando código
+  All 1673 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Example.vcxproj -> C:\Users\VC\Documents\GitHub\TFG\Release\Example.exe
